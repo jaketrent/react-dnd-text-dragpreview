@@ -43,7 +43,7 @@ These are the default styles that you can override via the 2nd argument to `crea
 
 ## React Usage
 
-In React, you're going to be using a dragPreview for react-dnd within a component.  
+In React, you're going to be using a dragPreview for `react-dnd` within a component.  
 
 Here's a demo component that uses `react-dnd`, `TableRow`, which will show a drag preview of "Moving X rows" when dragging.  See comments inline for relevant pieces:
 

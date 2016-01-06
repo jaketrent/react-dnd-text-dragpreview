@@ -3,6 +3,7 @@
   "description": "Textual drag preview for react-dnd drag and drop",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Everything is fine.  No tests here.\" && exit 0",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -22,6 +23,11 @@
     "url": "https://github.com/jaketrent/react-dnd-text-dragpreview.git"
   },
   "devDependencies": {
+    "commitizen": "^2.4.6",
+    "cz-conventional-changelog": "^1.1.5",
     "semantic-release": "^4.3.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }

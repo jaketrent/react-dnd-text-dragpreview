@@ -2,7 +2,7 @@
 
 react-dnd allows you to use an image for a drag preview.  In order to get text as a drag preview, you have to write text to a canvas and export an image.  This library wraps up the canvas interaction.
 
-Afaik, only images can be used for a drag preview, via the []`setDragImage`](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Drag_operations#dragfeedback) api.
+![text drag preview in action](http://i.imgur.com/hhXOqdW.gifv)
 
 ## Install
 
@@ -45,7 +45,7 @@ These are the default styles that you can override via the 2nd argument to `crea
 
 In React, you're going to be using a dragPreview for react-dnd within a component.  
 
-Here's a demo component, `TableRow`, which will show a drag preview of `Moving X rows` when dragging.  See comments inline for relevant pieces:
+Here's a demo component that uses `react-dnd`, `TableRow`, which will show a drag preview of "Moving X rows" when dragging.  See comments inline for relevant pieces:
 
 ```js
 import { DragSource } from 'react-dnd';

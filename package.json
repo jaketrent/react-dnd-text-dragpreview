@@ -1,0 +1,20 @@
+{
+  "name": "react-dnd-text-dragpreview",
+  "version": "0.0.1",
+  "description": "Textual drag preview for react-dnd drag and drop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-dnd",
+    "drag",
+    "and",
+    "drog",
+    "drag",
+    "preview"
+  ],
+  "author": "jaketrent",
+  "license": "MIT"
+}

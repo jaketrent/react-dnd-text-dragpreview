@@ -2,7 +2,7 @@
 
 react-dnd allows you to use an image for a drag preview.  In order to get text as a drag preview, you have to write text to a canvas and export an image.  This library wraps up the canvas interaction.
 
-![text drag preview in action](http://i.imgur.com/glegZVc.gifv)
+![text drag preview in action](http://i.imgur.com/glegZVc.gif)
 
 ## Install
 
